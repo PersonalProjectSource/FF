@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}PocRegis{% endblock %}</title>
+        {% block stylesheets %}
+            <link href="{{ asset('bundles/regis/css/bootstrap.min.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/css/bootstrap-reset.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/assets/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/assets/bootstrap-fileupload/bootstrap-fileupload.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/assets/bootstrap-datepicker/css/datepicker.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/assets/bootstrap-timepicker/compiled/timepicker.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/assets/bootstrap-colorpicker/css/colorpicker.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/assets/bootstrap-daterangepicker/daterangepicker-bs3.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/assets/bootstrap-datetimepicker/css/datetimepicker.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/assets/jquery-multi-select/css/multi-select.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/css/style.css') }}" rel="stylesheet">
+            <link href="{{ asset('bundles/regis/css/style-responsive.css') }}" rel="stylesheet">
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}
+
+            <script src="{{ asset('bundles/regis/js/jquery.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/js/jquery-1.8.3.min.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/js/bootstrap.min.js') }}" ></script>
+
+            <script src="{{ asset('bundles/regis/js/html5shiv.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/js/respond.min.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/js/bootstrap.min.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/js/jquery.dcjqaccordion.2.7.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/js/jquery.scrollTo.min.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/js/jquery.nicescroll.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/js/respond.min.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/fuelux/js/spinner.min.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/bootstrap-fileupload/bootstrap-fileupload.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/bootstrap-datepicker/js/bootstrap-datepicker.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/bootstrap-daterangepicker/moment.min.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/bootstrap-daterangepicker/daterangepicker.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/bootstrap-timepicker/js/bootstrap-timepicker.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/jquery-multi-select/js/jquery.multi-select.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/assets/jquery-multi-select/js/jquery.quicksearch.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/js/common-scripts.js') }}" ></script>
+            <script src="{{ asset('bundles/regis/js/advanced-form-components.js') }}" ></script>
+
+        {% endblock %}
+    </body>
+</html>
